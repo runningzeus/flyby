@@ -15,3 +15,9 @@ It's ultimate goal is to help you declare arbitrary workflow, that can speak elo
 Architecturally, FlyBy is a combination of loosely coupled services, communicating through well defined REST interfaces. FlyBy communicates with tools and services via adapters. 
 
 This way you can define the workflow once. Powered by its adapter eco - system, FlyBy helps you port the workflow definition to be supported by newer sets of tools
+
+TBD 
+
+ 1. Define technology tasks 
+ 2. Define feature specification for 1.0.0
+ 3. Define configuration management posility 
