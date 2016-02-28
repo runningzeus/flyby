@@ -1,26 +1,15 @@
 # flyby
 
-continuous delivery simplified 
+an open source platform that combines best of the breed technologies to have you easily set up, execute and monitor continuos delivery of your product
+the platform is named flyby to emphasize passage of a single commit, through a pipeline, which potentially can result into releasable candidate for product
+the platform will strictly follow DRY principles and operate seamlessly with best in class existing OSS products, via it's adapters 
+architecturally
+	** it is a microservice solution
+	** exposes domain model via REST API for easy integration 
+	**   
 
-## weekend : 11th Feb 2016
+## foundational blocks 
 
-* development environment : java 8, maven 3, testng, fest, git, powermock, 
-* maven should be used as build, test and release management tool
-* spring boot will be used as application layer
-* jax-rs as client / server interaction specification
-* jetty as deployment tool 
-* swagger as REST API documentation engine 
-* REST assured as REST API test engine 
+### functional
 
-
-### functional feature list
-
-* api client should be able to invoke a REST API to create a simple workflow that builds, test and notifies 
-* api client should be able to confirm to proceed towards deployment 
-* api client should be able to receive notification about success / failure of the deployment
-
-### technical feature list
-
-* availability of swagger documented REST API
-* availability of tests for the REST API using REST assured
-* release of 0.0.1 of the maven module
+### technical    
